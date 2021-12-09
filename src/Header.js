@@ -1,5 +1,6 @@
 import './Header.css';
-import {} from '@'
+import SearchIcon from '@material-ui/icons/Search';
+import { ShoppingBasket } from '@material-ui/icons';
 const Header = () => {
     return (
         <div className="header">
@@ -12,7 +13,9 @@ const Header = () => {
                     className="header__searchInput"
                     type="text"
                 />
-                {/* Logo */}
+                <SearchIcon
+                 className="header__searchIcon"
+                />
             </div>
 
             <div className="header__nav">
@@ -30,6 +33,10 @@ const Header = () => {
                 </div>
             </div>
 
+            <div className="header__optionBasket">
+                <ShoppingBasket/>
+                <span className="header__optionLineTwo header__basketCount">0</span>
+            </div>
         </div>
     )
 }
