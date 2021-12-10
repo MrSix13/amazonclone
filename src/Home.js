@@ -43,10 +43,23 @@ const Home = () => {
                   image="https://i.ytimg.com/vi/LnqWasjxQRc/maxresdefault.jpg"
                 
                 />
-                <Product/>
+                <Product
+                 id="23123"
+                 price={29.99} 
+                 title="Call of duty: Black ops 1"
+                 rating={5}
+                 image="https://i.ytimg.com/vi/x_1vfeuAB3A/maxresdefault.jpg"
+                
+                />
             </div>
             <div className="home__row">
-                <Product/>
+                <Product
+                 id="23123"
+                 price={29.99} 
+                 title="Call of duty: Black ops 2"
+                 rating={5}
+                 image="https://i.ytimg.com/vi/H74T9L2VZJo/maxresdefault.jpg"
+                />
             </div>
             </div>
         </div>
